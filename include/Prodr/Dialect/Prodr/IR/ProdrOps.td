@@ -14,7 +14,7 @@ include "mlir/Interfaces/CallInterfaces.td" // CallOpInterface
 
 
 
-class Prodr_Op<string mnemonic, list<Trait> traits = []> : Op<Prodr_Dialect, mnemonic> {
+class Prodr_Op<string mnemonic, list<Trait> traits = []> : Op<Prodr_Dialect, mnemonic, traits> {
 
 }
 
