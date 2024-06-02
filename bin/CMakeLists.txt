@@ -20,7 +20,7 @@ set(LIBS
         MLIRTargetLLVMIRExport
         MLIRTransforms
         MLIROptLib
-        )
+)
 add_llvm_executable(prodr-opt prodr-opt.cpp)
 
 llvm_update_compile_flags(prodr-opt)
